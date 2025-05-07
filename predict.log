@@ -1,0 +1,157 @@
+2025-04-13 22:42:04,730 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.11:5002
+2025-04-13 22:42:04,730 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 22:42:04,731 - INFO -  * Restarting with stat
+2025-04-13 22:42:06,419 - WARNING -  * Debugger is active!
+2025-04-13 22:42:06,423 - INFO -  * Debugger PIN: 374-400-020
+2025-04-13 22:44:45,020 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.11:5002
+2025-04-13 22:44:45,020 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 22:44:45,022 - INFO -  * Restarting with stat
+2025-04-13 22:44:46,300 - WARNING -  * Debugger is active!
+2025-04-13 22:44:46,303 - INFO -  * Debugger PIN: 374-400-020
+2025-04-13 22:45:56,170 - INFO - 127.0.0.1 - - [13/Apr/2025 22:45:56] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-13 22:45:56,433 - INFO - Received a prediction request:
+2025-04-13 22:45:56,433 - INFO - Request data: {'packet_length': '3', 'duration': '2312', 'source_port': '3123', 'destination_port': '1231', 'bytes_sent': '2312', 'bytes_received': '1231', 'flow_packets': '2131', 'total_fwd_packets': '1231', 'total_bwd_packets': '123', 'sub_flow_fwd_bytes': '123', 'sub_flow_bwd_bytes': '1231', 'attack_type': 'Normal', 'label': ''}
+2025-04-13 22:45:56,436 - INFO - Prediction result: 0, Probability : 0.4821848990148675
+2025-04-13 22:45:56,436 - INFO - 127.0.0.1 - - [13/Apr/2025 22:45:56] "POST /predict HTTP/1.1" 200 -
+2025-04-13 22:49:10,384 - INFO - 127.0.0.1 - - [13/Apr/2025 22:49:10] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-13 22:49:10,620 - INFO - Received a prediction request:
+2025-04-13 22:49:10,620 - INFO - Request data: {'packet_length': '3', 'duration': '2312', 'source_port': '3123', 'destination_port': '1231', 'bytes_sent': '2312', 'bytes_received': '1231', 'flow_packets': '2131', 'total_fwd_packets': '1231', 'total_bwd_packets': '123', 'sub_flow_fwd_bytes': '123', 'sub_flow_bwd_bytes': '1231', 'attack_type': 'Normal', 'label': ''}
+2025-04-13 22:49:10,622 - INFO - Prediction result: 0, Probability : 0.4821848990148675
+2025-04-13 22:49:10,622 - INFO - 127.0.0.1 - - [13/Apr/2025 22:49:10] "POST /predict HTTP/1.1" 200 -
+2025-04-13 22:49:12,823 - INFO - Received a prediction request:
+2025-04-13 22:49:12,824 - INFO - Request data: {'packet_length': '3', 'duration': '2312', 'source_port': '3123', 'destination_port': '1231', 'bytes_sent': '2312', 'bytes_received': '1231', 'flow_packets': '2131', 'total_fwd_packets': '1231', 'total_bwd_packets': '123', 'sub_flow_fwd_bytes': '123', 'sub_flow_bwd_bytes': '1231', 'attack_type': 'Normal', 'label': ''}
+2025-04-13 22:49:12,832 - INFO - Prediction result: 0, Probability : 0.4821848990148675
+2025-04-13 22:49:12,834 - INFO - 127.0.0.1 - - [13/Apr/2025 22:49:12] "POST /predict HTTP/1.1" 200 -
+2025-04-14 00:04:56,611 - INFO - 127.0.0.1 - - [14/Apr/2025 00:04:56] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-14 00:04:56,861 - INFO - Received a prediction request:
+2025-04-14 00:04:56,861 - INFO - Request data: {'packet_length': '67', 'duration': '88', 'source_port': '98', 'destination_port': '55', 'bytes_sent': '67', 'bytes_received': '99', 'flow_packets': '77', 'total_fwd_packets': '88', 'total_bwd_packets': '24', 'sub_flow_fwd_bytes': '566', 'sub_flow_bwd_bytes': '78', 'attack_type': 'Normal', 'label': ''}
+2025-04-14 00:04:56,864 - INFO - Prediction result: 0, Probability : 0.4821848990148675
+2025-04-14 00:04:56,864 - INFO - 127.0.0.1 - - [14/Apr/2025 00:04:56] "POST /predict HTTP/1.1" 200 -
+2025-04-14 00:05:12,332 - INFO - 127.0.0.1 - - [14/Apr/2025 00:05:12] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-14 00:05:12,645 - INFO - Received a prediction request:
+2025-04-14 00:05:12,645 - INFO - Request data: {'packet_length': '67', 'duration': '88', 'source_port': '98', 'destination_port': '55', 'bytes_sent': '67', 'bytes_received': '99', 'flow_packets': '77', 'total_fwd_packets': '88', 'total_bwd_packets': '24', 'sub_flow_fwd_bytes': '566', 'sub_flow_bwd_bytes': '78', 'attack_type': 'Brute Force', 'label': ''}
+2025-04-14 00:05:12,647 - INFO - Prediction result: 0, Probability : 0.4821848990148675
+2025-04-14 00:05:12,648 - INFO - 127.0.0.1 - - [14/Apr/2025 00:05:12] "POST /predict HTTP/1.1" 200 -
+2025-04-14 00:05:15,190 - INFO - Received a prediction request:
+2025-04-14 00:05:15,190 - INFO - Request data: {'packet_length': '67', 'duration': '88', 'source_port': '98', 'destination_port': '55', 'bytes_sent': '67', 'bytes_received': '99', 'flow_packets': '77', 'total_fwd_packets': '88', 'total_bwd_packets': '24', 'sub_flow_fwd_bytes': '566', 'sub_flow_bwd_bytes': '78', 'attack_type': 'DDoS', 'label': ''}
+2025-04-14 00:05:15,193 - INFO - Prediction result: 0, Probability : 0.4821848990148675
+2025-04-14 00:05:15,194 - INFO - 127.0.0.1 - - [14/Apr/2025 00:05:15] "POST /predict HTTP/1.1" 200 -
+2025-04-14 00:05:17,875 - INFO - 127.0.0.1 - - [14/Apr/2025 00:05:17] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-14 00:05:18,140 - INFO - Received a prediction request:
+2025-04-14 00:05:18,141 - INFO - Request data: {'packet_length': '67', 'duration': '88', 'source_port': '98', 'destination_port': '55', 'bytes_sent': '67', 'bytes_received': '99', 'flow_packets': '77', 'total_fwd_packets': '88', 'total_bwd_packets': '24', 'sub_flow_fwd_bytes': '566', 'sub_flow_bwd_bytes': '78', 'attack_type': 'Ransomware', 'label': ''}
+2025-04-14 00:05:18,146 - INFO - Prediction result: 0, Probability : 0.4821848990148675
+2025-04-14 00:05:18,148 - INFO - 127.0.0.1 - - [14/Apr/2025 00:05:18] "POST /predict HTTP/1.1" 200 -
+2025-04-14 00:05:35,040 - INFO - 127.0.0.1 - - [14/Apr/2025 00:05:35] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-14 00:05:35,357 - INFO - Received a prediction request:
+2025-04-14 00:05:35,357 - INFO - Request data: {'packet_length': '67', 'duration': '88', 'source_port': '103', 'destination_port': '55', 'bytes_sent': '67', 'bytes_received': '99', 'flow_packets': '77', 'total_fwd_packets': '88', 'total_bwd_packets': '24', 'sub_flow_fwd_bytes': '566', 'sub_flow_bwd_bytes': '78', 'attack_type': 'Ransomware', 'label': ''}
+2025-04-14 00:05:35,359 - INFO - Prediction result: 0, Probability : 0.4821848990148675
+2025-04-14 00:05:35,360 - INFO - 127.0.0.1 - - [14/Apr/2025 00:05:35] "POST /predict HTTP/1.1" 200 -
+2025-04-14 00:05:35,672 - INFO - Received a prediction request:
+2025-04-14 00:05:35,673 - INFO - Request data: {'packet_length': '67', 'duration': '88', 'source_port': '103', 'destination_port': '55', 'bytes_sent': '67', 'bytes_received': '99', 'flow_packets': '77', 'total_fwd_packets': '88', 'total_bwd_packets': '24', 'sub_flow_fwd_bytes': '566', 'sub_flow_bwd_bytes': '78', 'attack_type': 'Ransomware', 'label': ''}
+2025-04-14 00:05:35,680 - INFO - Prediction result: 0, Probability : 0.4821848990148675
+2025-04-14 00:05:35,682 - INFO - 127.0.0.1 - - [14/Apr/2025 00:05:35] "POST /predict HTTP/1.1" 200 -
+2025-04-14 00:05:36,189 - INFO - Received a prediction request:
+2025-04-14 00:05:36,190 - INFO - Request data: {'packet_length': '67', 'duration': '88', 'source_port': '103', 'destination_port': '55', 'bytes_sent': '67', 'bytes_received': '99', 'flow_packets': '77', 'total_fwd_packets': '88', 'total_bwd_packets': '24', 'sub_flow_fwd_bytes': '566', 'sub_flow_bwd_bytes': '78', 'attack_type': 'Ransomware', 'label': ''}
+2025-04-14 00:05:36,192 - INFO - Prediction result: 0, Probability : 0.4821848990148675
+2025-04-14 00:05:36,192 - INFO - 127.0.0.1 - - [14/Apr/2025 00:05:36] "POST /predict HTTP/1.1" 200 -
+2025-04-14 00:05:36,360 - INFO - Received a prediction request:
+2025-04-14 00:05:36,360 - INFO - Request data: {'packet_length': '67', 'duration': '88', 'source_port': '103', 'destination_port': '55', 'bytes_sent': '67', 'bytes_received': '99', 'flow_packets': '77', 'total_fwd_packets': '88', 'total_bwd_packets': '24', 'sub_flow_fwd_bytes': '566', 'sub_flow_bwd_bytes': '78', 'attack_type': 'Ransomware', 'label': ''}
+2025-04-14 00:05:36,362 - INFO - Prediction result: 0, Probability : 0.4821848990148675
+2025-04-14 00:05:36,363 - INFO - 127.0.0.1 - - [14/Apr/2025 00:05:36] "POST /predict HTTP/1.1" 200 -
+2025-04-14 00:05:37,832 - INFO - Received a prediction request:
+2025-04-14 00:05:37,832 - INFO - Request data: {'packet_length': '67', 'duration': '88', 'source_port': '103', 'destination_port': '55', 'bytes_sent': '67', 'bytes_received': '99', 'flow_packets': '77', 'total_fwd_packets': '88', 'total_bwd_packets': '24', 'sub_flow_fwd_bytes': '566', 'sub_flow_bwd_bytes': '78', 'attack_type': 'Brute Force', 'label': ''}
+2025-04-14 00:05:37,834 - INFO - Prediction result: 0, Probability : 0.4821848990148675
+2025-04-14 00:05:37,835 - INFO - 127.0.0.1 - - [14/Apr/2025 00:05:37] "POST /predict HTTP/1.1" 200 -
+2025-04-14 00:05:38,831 - INFO - Received a prediction request:
+2025-04-14 00:05:38,832 - INFO - Request data: {'packet_length': '67', 'duration': '88', 'source_port': '103', 'destination_port': '55', 'bytes_sent': '67', 'bytes_received': '99', 'flow_packets': '77', 'total_fwd_packets': '88', 'total_bwd_packets': '24', 'sub_flow_fwd_bytes': '566', 'sub_flow_bwd_bytes': '78', 'attack_type': 'Brute Force', 'label': ''}
+2025-04-14 00:05:38,836 - INFO - Prediction result: 0, Probability : 0.4821848990148675
+2025-04-14 00:05:38,837 - INFO - 127.0.0.1 - - [14/Apr/2025 00:05:38] "POST /predict HTTP/1.1" 200 -
+2025-04-14 00:05:38,988 - INFO - Received a prediction request:
+2025-04-14 00:05:38,988 - INFO - Request data: {'packet_length': '67', 'duration': '88', 'source_port': '103', 'destination_port': '55', 'bytes_sent': '67', 'bytes_received': '99', 'flow_packets': '77', 'total_fwd_packets': '88', 'total_bwd_packets': '24', 'sub_flow_fwd_bytes': '566', 'sub_flow_bwd_bytes': '78', 'attack_type': 'Brute Force', 'label': ''}
+2025-04-14 00:05:38,990 - INFO - Prediction result: 0, Probability : 0.4821848990148675
+2025-04-14 00:05:38,990 - INFO - 127.0.0.1 - - [14/Apr/2025 00:05:38] "POST /predict HTTP/1.1" 200 -
+2025-04-14 00:05:42,050 - INFO - 127.0.0.1 - - [14/Apr/2025 00:05:42] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-14 00:05:42,358 - INFO - Received a prediction request:
+2025-04-14 00:05:42,358 - INFO - Request data: {'packet_length': '67', 'duration': '94', 'source_port': '103', 'destination_port': '55', 'bytes_sent': '67', 'bytes_received': '99', 'flow_packets': '77', 'total_fwd_packets': '88', 'total_bwd_packets': '24', 'sub_flow_fwd_bytes': '566', 'sub_flow_bwd_bytes': '78', 'attack_type': 'Brute Force', 'label': ''}
+2025-04-14 00:05:42,360 - INFO - Prediction result: 0, Probability : 0.4821848990148675
+2025-04-14 00:05:42,360 - INFO - 127.0.0.1 - - [14/Apr/2025 00:05:42] "POST /predict HTTP/1.1" 200 -
+2025-04-14 00:05:44,950 - INFO - Received a prediction request:
+2025-04-14 00:05:44,951 - INFO - Request data: {'packet_length': '72', 'duration': '94', 'source_port': '103', 'destination_port': '55', 'bytes_sent': '67', 'bytes_received': '99', 'flow_packets': '77', 'total_fwd_packets': '88', 'total_bwd_packets': '24', 'sub_flow_fwd_bytes': '566', 'sub_flow_bwd_bytes': '78', 'attack_type': 'Brute Force', 'label': ''}
+2025-04-14 00:05:44,954 - INFO - Prediction result: 0, Probability : 0.4821848990148675
+2025-04-14 00:05:44,955 - INFO - 127.0.0.1 - - [14/Apr/2025 00:05:44] "POST /predict HTTP/1.1" 200 -
+2025-04-14 19:23:33,155 - INFO - 127.0.0.1 - - [14/Apr/2025 19:23:33] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-14 19:23:33,401 - INFO - Received a prediction request:
+2025-04-14 19:23:33,406 - INFO - Request data: {'packet_length': '123', 'duration': '56', 'source_port': '85', 'destination_port': '45', 'bytes_sent': '56', 'bytes_received': '23', 'flow_packets': '45', 'total_fwd_packets': '56', 'total_bwd_packets': '12', 'sub_flow_fwd_bytes': '45', 'sub_flow_bwd_bytes': '65', 'attack_type': 'Brute Force', 'label': ''}
+2025-04-14 19:23:33,451 - INFO - Prediction result: 0, Probability : 0.4821848990148675
+2025-04-14 19:23:33,454 - INFO - 127.0.0.1 - - [14/Apr/2025 19:23:33] "POST /predict HTTP/1.1" 200 -
+2025-04-14 19:23:47,133 - INFO - 127.0.0.1 - - [14/Apr/2025 19:23:47] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-14 19:23:47,446 - INFO - Received a prediction request:
+2025-04-14 19:23:47,447 - INFO - Request data: {'packet_length': '123', 'duration': '56', 'source_port': '85', 'destination_port': '45', 'bytes_sent': '56', 'bytes_received': '23', 'flow_packets': '45', 'total_fwd_packets': '56', 'total_bwd_packets': '12', 'sub_flow_fwd_bytes': '45', 'sub_flow_bwd_bytes': '65', 'attack_type': 'Normal', 'label': ''}
+2025-04-14 19:23:47,457 - INFO - Prediction result: 0, Probability : 0.4821848990148675
+2025-04-14 19:23:47,459 - INFO - 127.0.0.1 - - [14/Apr/2025 19:23:47] "POST /predict HTTP/1.1" 200 -
+2025-04-14 19:25:22,242 - INFO - 127.0.0.1 - - [14/Apr/2025 19:25:22] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-14 19:25:22,507 - INFO - Received a prediction request:
+2025-04-14 19:25:22,508 - INFO - Request data: {'packet_length': '123', 'duration': '56', 'source_port': '85', 'destination_port': '45', 'bytes_sent': '56', 'bytes_received': '23', 'flow_packets': '45', 'total_fwd_packets': '56', 'total_bwd_packets': '12', 'sub_flow_fwd_bytes': '45', 'sub_flow_bwd_bytes': '65', 'attack_type': 'Normal', 'label': ''}
+2025-04-14 19:25:22,513 - INFO - Prediction result: 0, Probability : 0.4821848990148675
+2025-04-14 19:25:22,515 - INFO - 127.0.0.1 - - [14/Apr/2025 19:25:22] "POST /predict HTTP/1.1" 200 -
+2025-04-14 19:25:31,707 - INFO - 127.0.0.1 - - [14/Apr/2025 19:25:31] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-14 19:25:32,013 - INFO - Received a prediction request:
+2025-04-14 19:25:32,013 - INFO - Request data: {'packet_length': '123', 'duration': '56', 'source_port': '85', 'destination_port': '45', 'bytes_sent': '56', 'bytes_received': '23', 'flow_packets': '45', 'total_fwd_packets': '56', 'total_bwd_packets': '12', 'sub_flow_fwd_bytes': '45', 'sub_flow_bwd_bytes': '65', 'attack_type': 'Brute Force', 'label': ''}
+2025-04-14 19:25:32,015 - INFO - Prediction result: 0, Probability : 0.4821848990148675
+2025-04-14 19:25:32,016 - INFO - 127.0.0.1 - - [14/Apr/2025 19:25:32] "POST /predict HTTP/1.1" 200 -
+2025-04-14 19:25:42,327 - INFO - 127.0.0.1 - - [14/Apr/2025 19:25:42] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-14 19:25:42,649 - INFO - Received a prediction request:
+2025-04-14 19:25:42,650 - INFO - Request data: {'packet_length': '123', 'duration': '56', 'source_port': '85', 'destination_port': '45', 'bytes_sent': '56', 'bytes_received': '23', 'flow_packets': '45', 'total_fwd_packets': '56', 'total_bwd_packets': '12', 'sub_flow_fwd_bytes': '45', 'sub_flow_bwd_bytes': '65', 'attack_type': 'Ransomware', 'label': ''}
+2025-04-14 19:25:42,656 - INFO - Prediction result: 0, Probability : 0.4821848990148675
+2025-04-14 19:25:42,657 - INFO - 127.0.0.1 - - [14/Apr/2025 19:25:42] "POST /predict HTTP/1.1" 200 -
+2025-04-14 19:25:43,310 - INFO - Received a prediction request:
+2025-04-14 19:25:43,310 - INFO - Request data: {'packet_length': '123', 'duration': '56', 'source_port': '85', 'destination_port': '45', 'bytes_sent': '56', 'bytes_received': '23', 'flow_packets': '45', 'total_fwd_packets': '56', 'total_bwd_packets': '12', 'sub_flow_fwd_bytes': '45', 'sub_flow_bwd_bytes': '65', 'attack_type': 'Ransomware', 'label': ''}
+2025-04-14 19:25:43,312 - INFO - Prediction result: 0, Probability : 0.4821848990148675
+2025-04-14 19:25:43,313 - INFO - 127.0.0.1 - - [14/Apr/2025 19:25:43] "POST /predict HTTP/1.1" 200 -
+2025-04-14 19:26:01,610 - INFO - 127.0.0.1 - - [14/Apr/2025 19:26:01] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-14 19:26:01,865 - INFO - Received a prediction request:
+2025-04-14 19:26:01,866 - INFO - Request data: {'packet_length': '123', 'duration': '56', 'source_port': '85', 'destination_port': '41000000', 'bytes_sent': '56', 'bytes_received': '23', 'flow_packets': '45', 'total_fwd_packets': '56', 'total_bwd_packets': '12', 'sub_flow_fwd_bytes': '45', 'sub_flow_bwd_bytes': '65', 'attack_type': 'Ransomware', 'label': ''}
+2025-04-14 19:26:01,868 - INFO - Prediction result: 0, Probability : 0.4821848990148675
+2025-04-14 19:26:01,868 - INFO - 127.0.0.1 - - [14/Apr/2025 19:26:01] "POST /predict HTTP/1.1" 200 -
+2025-04-14 19:26:07,833 - INFO - 127.0.0.1 - - [14/Apr/2025 19:26:07] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-14 19:26:08,157 - INFO - Received a prediction request:
+2025-04-14 19:26:08,159 - INFO - Request data: {'packet_length': '123', 'duration': '8000000', 'source_port': '85', 'destination_port': '41000000', 'bytes_sent': '56', 'bytes_received': '23', 'flow_packets': '45', 'total_fwd_packets': '56', 'total_bwd_packets': '12', 'sub_flow_fwd_bytes': '45', 'sub_flow_bwd_bytes': '65', 'attack_type': 'Ransomware', 'label': ''}
+2025-04-14 19:26:08,164 - INFO - Prediction result: 0, Probability : 0.4821848990148675
+2025-04-14 19:26:08,166 - INFO - 127.0.0.1 - - [14/Apr/2025 19:26:08] "POST /predict HTTP/1.1" 200 -
+2025-04-14 19:26:15,513 - INFO - 127.0.0.1 - - [14/Apr/2025 19:26:15] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-14 19:26:15,832 - INFO - Received a prediction request:
+2025-04-14 19:26:15,832 - INFO - Request data: {'packet_length': '123', 'duration': '8000000', 'source_port': '8450000', 'destination_port': '41000000', 'bytes_sent': '56', 'bytes_received': '23', 'flow_packets': '45', 'total_fwd_packets': '56', 'total_bwd_packets': '12', 'sub_flow_fwd_bytes': '45', 'sub_flow_bwd_bytes': '65', 'attack_type': 'Ransomware', 'label': ''}
+2025-04-14 19:26:15,834 - INFO - Prediction result: 0, Probability : 0.4821848990148675
+2025-04-14 19:26:15,834 - INFO - 127.0.0.1 - - [14/Apr/2025 19:26:15] "POST /predict HTTP/1.1" 200 -
+2025-04-14 19:26:16,173 - INFO - Received a prediction request:
+2025-04-14 19:26:16,175 - INFO - Request data: {'packet_length': '123', 'duration': '8000000', 'source_port': '8450000', 'destination_port': '41000000', 'bytes_sent': '56', 'bytes_received': '23', 'flow_packets': '45', 'total_fwd_packets': '56', 'total_bwd_packets': '12', 'sub_flow_fwd_bytes': '45', 'sub_flow_bwd_bytes': '65', 'attack_type': 'Ransomware', 'label': ''}
+2025-04-14 19:26:16,182 - INFO - Prediction result: 0, Probability : 0.4821848990148675
+2025-04-14 19:26:16,185 - INFO - 127.0.0.1 - - [14/Apr/2025 19:26:16] "POST /predict HTTP/1.1" 200 -
+2025-04-14 19:26:16,639 - INFO - Received a prediction request:
+2025-04-14 19:26:16,640 - INFO - Request data: {'packet_length': '123', 'duration': '8000000', 'source_port': '8450000', 'destination_port': '41000000', 'bytes_sent': '56', 'bytes_received': '23', 'flow_packets': '45', 'total_fwd_packets': '56', 'total_bwd_packets': '12', 'sub_flow_fwd_bytes': '45', 'sub_flow_bwd_bytes': '65', 'attack_type': 'Ransomware', 'label': ''}
+2025-04-14 19:26:16,648 - INFO - Prediction result: 0, Probability : 0.4821848990148675
+2025-04-14 19:26:16,650 - INFO - 127.0.0.1 - - [14/Apr/2025 19:26:16] "POST /predict HTTP/1.1" 200 -
+2025-04-14 19:26:16,832 - INFO - Received a prediction request:
+2025-04-14 19:26:16,833 - INFO - Request data: {'packet_length': '123', 'duration': '8000000', 'source_port': '8450000', 'destination_port': '41000000', 'bytes_sent': '56', 'bytes_received': '23', 'flow_packets': '45', 'total_fwd_packets': '56', 'total_bwd_packets': '12', 'sub_flow_fwd_bytes': '45', 'sub_flow_bwd_bytes': '65', 'attack_type': 'Ransomware', 'label': ''}
+2025-04-14 19:26:16,837 - INFO - Prediction result: 0, Probability : 0.4821848990148675
+2025-04-14 19:26:16,838 - INFO - 127.0.0.1 - - [14/Apr/2025 19:26:16] "POST /predict HTTP/1.1" 200 -
+2025-04-14 19:26:16,898 - INFO - Received a prediction request:
+2025-04-14 19:26:16,898 - INFO - Request data: {'packet_length': '123', 'duration': '8000000', 'source_port': '8450000', 'destination_port': '41000000', 'bytes_sent': '56', 'bytes_received': '23', 'flow_packets': '45', 'total_fwd_packets': '56', 'total_bwd_packets': '12', 'sub_flow_fwd_bytes': '45', 'sub_flow_bwd_bytes': '65', 'attack_type': 'Ransomware', 'label': ''}
+2025-04-14 19:26:16,911 - INFO - Prediction result: 0, Probability : 0.4821848990148675
+2025-04-14 19:26:16,911 - INFO - 127.0.0.1 - - [14/Apr/2025 19:26:16] "POST /predict HTTP/1.1" 200 -
+2025-04-14 19:30:01,657 - INFO - 127.0.0.1 - - [14/Apr/2025 19:30:01] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-14 19:30:01,914 - INFO - Received a prediction request:
+2025-04-14 19:30:01,915 - INFO - Request data: {'packet_length': '45000', 'duration': '8000000', 'source_port': '8450000', 'destination_port': '91000000', 'bytes_sent': '123456789', 'bytes_received': '23', 'flow_packets': '45', 'total_fwd_packets': '56', 'total_bwd_packets': '12', 'sub_flow_fwd_bytes': '45', 'sub_flow_bwd_bytes': '65', 'attack_type': 'Ransomware', 'label': ''}
+2025-04-14 19:30:01,921 - INFO - Prediction result: 0, Probability : 0.4821848990148675
+2025-04-14 19:30:01,922 - INFO - 127.0.0.1 - - [14/Apr/2025 19:30:01] "POST /predict HTTP/1.1" 200 -
+2025-04-14 19:31:22,040 - INFO - 127.0.0.1 - - [14/Apr/2025 19:31:22] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-14 19:31:22,291 - INFO - Received a prediction request:
+2025-04-14 19:31:22,292 - INFO - Request data: {'packet_length': '44999', 'duration': '8000000', 'source_port': '8450000', 'destination_port': '91000000', 'bytes_sent': '123456789', 'bytes_received': '23', 'flow_packets': '45', 'total_fwd_packets': '56', 'total_bwd_packets': '12', 'sub_flow_fwd_bytes': '45', 'sub_flow_bwd_bytes': '65', 'attack_type': 'Ransomware', 'label': ''}
+2025-04-14 19:31:22,297 - INFO - Prediction result: 0, Probability : 0.4821848990148675
+2025-04-14 19:31:22,298 - INFO - 127.0.0.1 - - [14/Apr/2025 19:31:22] "POST /predict HTTP/1.1" 200 -
